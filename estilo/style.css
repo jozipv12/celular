@@ -9,85 +9,101 @@
       --fonte3:"Oswald", serif;;
 }
 
+
+
+
 *{
     margin: 0px;
     padding: 0px;
 }
+
+
 html,body{
     min-height: 100vh;
-    background-color: rgba(230, 21, 14, 0.815);
+    background-color: black;
     font-family: var(--fonte1);
+   
    
    
 }
 header{
     background-color: black;
-    color: rgb(160, 25, 104);
+    color: rgba(59, 219, 19, 0.74);
     text-align: center;
-  
+ 
 }
 header > h1{
     padding-bottom: 40px;
   padding-top: 40px;
-  font-variant: small-caps;
+ font-variant: small-caps;
   font-family: var(--fonte2);
-  font-size:30px;
+  font-size: 5vw;
+   
+  
  
 }
+
+
 header > p{
-    padding-bottom: 40px;
-    padding-left: -60px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+     
 }
 header a,footer a{
-    color: rgb(192, 145, 17);
+    color: rgb(235, 45, 162);
     text-decoration: none;
     font-weight: bolder;
-    font-size: 30px;
-  
+    
    
    
 
 }
 header a:hover,footer a:hover{
     text-decoration: underline;
+  
 }
 section{
-    padding-top:10vw ;
-    padding-bottom:20vw;
+    padding-top:3vw ;
+    padding-bottom:10vw;
     line-height: 2em;
     font-family: var(--fonte3);
     font-size: 3vw;
-    padding-left: 30px;
+    padding-left: 20px;
+    
    
 }
-section{
-padding-bottom: 2em;
 
-
-}
 section.normal{
-background-color: rgb(113, 255, 255);
+background-color: rgb(7, 235, 166);
 color: black;
-font-size: 30px;
+border-radius: 30px;
+
 
 }
 
 section.imagem{
-background-color: rgba(228, 133, 126, 0.76);
+background-color: rgba(17, 233, 9, 0.637);
 color: black;
-background-size: cover;
+
+font-size: 20px;
+padding-top: 250px;
+padding-bottom: 250px;
 background-attachment: fixed;
-padding-top: 200px;
-padding-bottom: 200px;
+
+
+              
+
+
 }
 section.imagem>p{
     display: inline-block;
-    background-color: rgba(233, 65, 210, 0.726);
+    background-color: rgb(233, 65, 211);
     color: rgba(0, 0, 0, 0.829);
     padding: 50;
     padding-top:20px ;
     padding-bottom: 20px;
     border-bottom: 20px;
+     border-radius: 30px;
    
 
 }
@@ -112,7 +128,7 @@ section#img4{
 }
 footer{
     background-color: black;
-    color: white;
+    color: rgb(114, 7, 7);
    text-align:10px ;
    padding: 10px;
 }
